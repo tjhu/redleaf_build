@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    run-on: ubuntu-18.04
+    runs-on: ubuntu-18.04
 
     container: gitlet/redleaf_build:0.0
 
