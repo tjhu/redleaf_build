@@ -1,5 +1,6 @@
 name: 'Redleaf build'
 description: 'Build dependencies for Redleaf'
 runs:
+  uses: actions/checkout@v2
   using: 'docker'
   image: 'Dockerfile'
